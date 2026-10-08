@@ -1,0 +1,20 @@
+places 20 transitions 45
+reachable markings 124 arcs 587 bound 1
+P-invariant controller x.C = 0: True token sum {1}
+P-invariant clamp x.C = 0: True token sum {1}
+P-invariant feed x.C = 0: True token sum {1}
+P-invariant spindle x.C = 0: True token sum {1}
+P-invariant guard x.C = 0: True token sum {1}
+P-invariant pressure x.C = 0: True token sum {1}
+T-invariant nominal cycle C.y = 0: True 17 firings
+nominal cycle fires from M0 and returns to M0: True
+S1 feed away from home => clamp closed True
+S2 spindle running => clamp closed True
+S3 Release => spindle stopped True
+S4 feed advance fires only with guard, pressure, clamp and spindle True
+S5 SpinUp, Advance, Retract, SpinDown => clamp closed True
+S6 feed away from home => Advance, Retract or Fault True
+markings with a permissive lost in an active state 66 | fault transition enabled in all: True | energizing steps enabled: []
+dead markings 0 | transitions never fired []
+M0 reachable from every reachable marking (reversible): True
+markings per controller place {'Idle': 4, 'Clamp': 12, 'SpinUp': 8, 'Advance': 24, 'Retract': 24, 'SpinDown': 8, 'Release': 12, 'Fault': 32}

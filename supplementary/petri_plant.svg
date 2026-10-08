@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1880" height="600" viewBox="0 0 1880 600">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#2F5D7C"/></marker>
+<marker id="dot" markerWidth="8" markerHeight="8" refX="4" refY="4" markerUnits="userSpaceOnUse"><circle cx="4" cy="4" r="3.2" fill="#2F5D7C"/></marker></defs>
+<rect width="1880" height="600" fill="white"/>
+<text x="300" y="120" text-anchor="middle" font-family="Arial" font-size="18" fill="#111">Clamp cylinder</text>
+<circle cx="70" cy="290" r="24" fill="#E9F1F8" stroke="#2F5D7C" stroke-width="2.5"/>
+<circle cx="70" cy="290" r="6.5" fill="#2F5D7C"/>
+<text x="70" y="334" text-anchor="middle" font-family="Arial" font-size="17" fill="#111">C_open</text>
+<circle cx="300" cy="290" r="24" fill="#E9F1F8" stroke="#2F5D7C" stroke-width="2.5"/>
+<text x="300" y="334" text-anchor="middle" font-family="Arial" font-size="17" fill="#111">C_moving</text>
+<circle cx="530" cy="290" r="24" fill="#E9F1F8" stroke="#2F5D7C" stroke-width="2.5"/>
+<text x="530" y="334" text-anchor="middle" font-family="Arial" font-size="17" fill="#111">C_closed</text>
+<rect x="180.5" y="206" width="9" height="44" fill="#2F5D7C"/>
+<text x="185" y="194" text-anchor="middle" font-family="Arial" font-size="15" fill="#111">t_ce1</text>
+<text x="185" y="170" text-anchor="middle" font-family="Arial" font-size="13.5" fill="#333">⟨Clamp, G_closed, P_ok⟩</text>
+<line x1="91.1254049613813" y1="278.6106512382118" x2="176.19774793275778" y2="232.74556198407842" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="193.80225206724222" y1="232.74556198407842" x2="278.8745950386187" y2="278.6106512382118" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="180.5" y="330" width="9" height="44" fill="#2F5D7C"/>
+<text x="185" y="402" text-anchor="middle" font-family="Arial" font-size="15" fill="#111">t_cr2</text>
+<text x="185" y="426" text-anchor="middle" font-family="Arial" font-size="13.5" fill="#333">⟨ ⟩ arrival uncontrolled</text>
+<line x1="278.8745950386187" y1="301.3893487617882" x2="193.80225206724222" y2="347.2544380159216" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="176.19774793275778" y1="347.2544380159216" x2="91.1254049613813" y2="301.3893487617882" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="410.5" y="206" width="9" height="44" fill="#2F5D7C"/>
+<text x="415" y="194" text-anchor="middle" font-family="Arial" font-size="15" fill="#111">t_ce2</text>
+<text x="415" y="170" text-anchor="middle" font-family="Arial" font-size="13.5" fill="#333">⟨ ⟩ arrival uncontrolled</text>
+<line x1="321.1254049613813" y1="278.6106512382118" x2="406.1977479327578" y2="232.74556198407842" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="423.8022520672422" y1="232.74556198407842" x2="508.8745950386187" y2="278.6106512382118" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="410.5" y="330" width="9" height="44" fill="#2F5D7C"/>
+<text x="415" y="402" text-anchor="middle" font-family="Arial" font-size="15" fill="#111">t_cr1 / t_cr1_rec</text>
+<text x="415" y="426" text-anchor="middle" font-family="Arial" font-size="13.5" fill="#333">⟨Release, G_closed, P_ok⟩</text>
+<text x="415" y="444" text-anchor="middle" font-family="Arial" font-size="13.5" fill="#333">⟨Fault, F_home, S_stopped, G_closed, P_ok⟩</text>
+<line x1="508.8745950386187" y1="301.3893487617882" x2="423.8022520672422" y2="347.2544380159216" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="406.1977479327578" y1="347.2544380159216" x2="321.1254049613813" y2="301.3893487617882" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<text x="920" y="120" text-anchor="middle" font-family="Arial" font-size="18" fill="#111">Feed carriage</text>
+<circle cx="690" cy="290" r="24" fill="#E9F1F8" stroke="#2F5D7C" stroke-width="2.5"/>
+<circle cx="690" cy="290" r="6.5" fill="#2F5D7C"/>
+<text x="690" y="334" text-anchor="middle" font-family="Arial" font-size="17" fill="#111">F_home</text>
+<circle cx="920" cy="290" r="24" fill="#E9F1F8" stroke="#2F5D7C" stroke-width="2.5"/>
+<text x="920" y="334" text-anchor="middle" font-family="Arial" font-size="17" fill="#111">F_moving</text>
+<circle cx="1150" cy="290" r="24" fill="#E9F1F8" stroke="#2F5D7C" stroke-width="2.5"/>
+<text x="1150" y="334" text-anchor="middle" font-family="Arial" font-size="17" fill="#111">F_fwd</text>
+<rect x="800.5" y="206" width="9" height="44" fill="#2F5D7C"/>
+<text x="805" y="194" text-anchor="middle" font-family="Arial" font-size="15" fill="#111">t_fa1</text>
+<text x="805" y="152" text-anchor="middle" font-family="Arial" font-size="13.5" fill="#333">⟨Advance, C_closed, S_running,</text>
+<text x="805" y="170" text-anchor="middle" font-family="Arial" font-size="13.5" fill="#333">G_closed, P_ok⟩</text>
+<line x1="711.1254049613813" y1="278.6106512382118" x2="796.1977479327578" y2="232.74556198407842" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="813.8022520672422" y1="232.74556198407842" x2="898.8745950386187" y2="278.6106512382118" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="800.5" y="330" width="9" height="44" fill="#2F5D7C"/>
+<text x="805" y="402" text-anchor="middle" font-family="Arial" font-size="15" fill="#111">t_fb2</text>
+<text x="805" y="426" text-anchor="middle" font-family="Arial" font-size="13.5" fill="#333">⟨ ⟩ arrival uncontrolled</text>
+<line x1="898.8745950386187" y1="301.3893487617882" x2="813.8022520672422" y2="347.2544380159216" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="796.1977479327578" y1="347.2544380159216" x2="711.1254049613813" y2="301.3893487617882" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="1030.5" y="206" width="9" height="44" fill="#2F5D7C"/>
+<text x="1035" y="194" text-anchor="middle" font-family="Arial" font-size="15" fill="#111">t_fa2</text>
+<text x="1035" y="170" text-anchor="middle" font-family="Arial" font-size="13.5" fill="#333">⟨ ⟩ arrival uncontrolled</text>
+<line x1="941.1254049613813" y1="278.6106512382118" x2="1026.1977479327577" y2="232.74556198407842" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="1043.8022520672423" y1="232.74556198407842" x2="1128.8745950386187" y2="278.6106512382118" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="1030.5" y="330" width="9" height="44" fill="#2F5D7C"/>
+<text x="1035" y="402" text-anchor="middle" font-family="Arial" font-size="15" fill="#111">t_fr1 / t_fr1_rec</text>
+<text x="1035" y="426" text-anchor="middle" font-family="Arial" font-size="13.5" fill="#333">⟨Retract, G_closed, P_ok⟩</text>
+<text x="1035" y="444" text-anchor="middle" font-family="Arial" font-size="13.5" fill="#333">⟨Fault, G_closed, P_ok⟩</text>
+<line x1="1128.8745950386187" y1="301.3893487617882" x2="1043.8022520672423" y2="347.2544380159216" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="1026.1977479327577" y1="347.2544380159216" x2="941.1254049613813" y2="301.3893487617882" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<text x="1390" y="120" text-anchor="middle" font-family="Arial" font-size="18" fill="#111">Spindle</text>
+<circle cx="1290" cy="290" r="24" fill="#E9F1F8" stroke="#2F5D7C" stroke-width="2.5"/>
+<circle cx="1290" cy="290" r="6.5" fill="#2F5D7C"/>
+<text x="1290" y="334" text-anchor="middle" font-family="Arial" font-size="17" fill="#111">S_stopped</text>
+<circle cx="1490" cy="290" r="24" fill="#E9F1F8" stroke="#2F5D7C" stroke-width="2.5"/>
+<text x="1490" y="334" text-anchor="middle" font-family="Arial" font-size="17" fill="#111">S_running</text>
+<rect x="1385.5" y="206" width="9" height="44" fill="#2F5D7C"/>
+<text x="1390" y="194" text-anchor="middle" font-family="Arial" font-size="15" fill="#111">t_ss</text>
+<text x="1390" y="170" text-anchor="middle" font-family="Arial" font-size="13.5" fill="#333">⟨SpinUp, G_closed, P_ok⟩</text>
+<line x1="1310.3976646010972" y1="277.3534479473198" x2="1381.5009730828763" y2="233.26939668861675" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="1398.4990269171237" y1="233.26939668861675" x2="1469.6023353989028" y2="277.3534479473198" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="1385.5" y="330" width="9" height="44" fill="#2F5D7C"/>
+<text x="1390" y="402" text-anchor="middle" font-family="Arial" font-size="15" fill="#111">t_sc / t_sc_rec / t_strip</text>
+<text x="1390" y="426" text-anchor="middle" font-family="Arial" font-size="13.5" fill="#333">⟨SpinDown⟩ / ⟨Fault⟩ / ⟨ ⟩</text>
+<line x1="1469.6023353989028" y1="302.6465520526802" x2="1398.4990269171237" y2="346.7306033113832" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="1381.5009730828763" y1="346.7306033113832" x2="1310.3976646010972" y2="302.6465520526802" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<text x="1700" y="120" text-anchor="middle" font-family="Arial" font-size="18" fill="#111">Environment</text>
+<circle cx="1640" cy="230" r="24" fill="#E9F1F8" stroke="#2F5D7C" stroke-width="2.5"/>
+<circle cx="1640" cy="230" r="6.5" fill="#2F5D7C"/>
+<text x="1608" y="236" text-anchor="end" font-family="Arial" font-size="17" fill="#111">G_closed</text>
+<circle cx="1760" cy="230" r="24" fill="#E9F1F8" stroke="#2F5D7C" stroke-width="2.5"/>
+<text x="1792" y="236" text-anchor="start" font-family="Arial" font-size="17" fill="#111">G_open</text>
+<rect x="1678" y="185.5" width="44" height="9" fill="#2F5D7C"/>
+<text x="1700" y="170" text-anchor="middle" font-family="Arial" font-size="15" fill="#111">t_g_open</text>
+<rect x="1678" y="265.5" width="44" height="9" fill="#2F5D7C"/>
+<text x="1700" y="296" text-anchor="middle" font-family="Arial" font-size="15" fill="#111">t_g_close</text>
+<line x1="1659.9692070641083" y1="216.6871952905945" x2="1691.6794970566216" y2="195.5470019622523" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="1708.3205029433784" y1="195.5470019622523" x2="1740.0307929358917" y2="216.6871952905945" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="1740.0307929358917" y1="243.3128047094055" x2="1708.3205029433784" y2="264.4529980377477" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="1691.6794970566216" y1="264.4529980377477" x2="1659.9692070641083" y2="243.3128047094055" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<circle cx="1640" cy="380" r="24" fill="#E9F1F8" stroke="#2F5D7C" stroke-width="2.5"/>
+<circle cx="1640" cy="380" r="6.5" fill="#2F5D7C"/>
+<text x="1608" y="386" text-anchor="end" font-family="Arial" font-size="17" fill="#111">P_ok</text>
+<circle cx="1760" cy="380" r="24" fill="#E9F1F8" stroke="#2F5D7C" stroke-width="2.5"/>
+<text x="1792" y="386" text-anchor="start" font-family="Arial" font-size="17" fill="#111">P_low</text>
+<rect x="1678" y="335.5" width="44" height="9" fill="#2F5D7C"/>
+<text x="1700" y="320" text-anchor="middle" font-family="Arial" font-size="15" fill="#111">t_p_drop</text>
+<rect x="1678" y="415.5" width="44" height="9" fill="#2F5D7C"/>
+<text x="1700" y="446" text-anchor="middle" font-family="Arial" font-size="15" fill="#111">t_p_rise</text>
+<line x1="1659.9692070641083" y1="366.6871952905945" x2="1691.6794970566216" y2="345.5470019622523" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="1708.3205029433784" y1="345.5470019622523" x2="1740.0307929358917" y2="366.6871952905945" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="1740.0307929358917" y1="393.3128047094055" x2="1708.3205029433784" y2="414.4529980377477" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="1691.6794970566216" y1="414.4529980377477" x2="1659.9692070641083" y2="393.3128047094055" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<text x="30" y="556" text-anchor="start" font-family="Arial" font-size="14" fill="#333" font-style="italic">Angle brackets list the test places of a transition (read arcs: the token is required and returned). Controller places tested here are the states of Figure A;</text>
+<text x="30" y="578" text-anchor="start" font-family="Arial" font-size="14" fill="#333" font-style="italic">in turn, the confirmation transitions t2 to t7 of the controller test C_closed, S_running, F_fwd, F_home, S_stopped and C_open, and every energizing step tests G_closed and P_ok.</text>
+</svg>

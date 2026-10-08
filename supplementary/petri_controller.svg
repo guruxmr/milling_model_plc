@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="560" viewBox="0 0 1800 560">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#2F5D7C"/></marker>
+<marker id="dot" markerWidth="8" markerHeight="8" refX="4" refY="4" markerUnits="userSpaceOnUse"><circle cx="4" cy="4" r="3.2" fill="#2F5D7C"/></marker></defs>
+<rect width="1800" height="560" fill="white"/>
+<circle cx="880" cy="80" r="24" fill="#E9F1F8" stroke="#2F5D7C" stroke-width="2.5"/>
+<text x="880" y="46" text-anchor="middle" font-family="Arial" font-size="17" fill="#111">Fault</text>
+<rect x="375.5" y="178" width="9" height="44" fill="#2F5D7C"/>
+<text x="396" y="205" text-anchor="start" font-family="Arial" font-size="15" fill="#111">f_Clamp</text>
+<line x1="380" y1="306" x2="380" y2="222" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="401.3925206435714" y1="194.86579504554288" x2="856.6627047524676" y2="85.60095085940777" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="625.5" y="178" width="9" height="44" fill="#2F5D7C"/>
+<text x="646" y="205" text-anchor="start" font-family="Arial" font-size="15" fill="#111">f_SpinUp</text>
+<line x1="630" y1="306" x2="630" y2="222" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="649.833507264302" y1="190.47991651313504" x2="858.3634466207615" y2="90.38554562203451" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="875.5" y="178" width="9" height="44" fill="#2F5D7C"/>
+<text x="896" y="205" text-anchor="start" font-family="Arial" font-size="15" fill="#111">f_Advance</text>
+<line x1="880" y1="306" x2="880" y2="222" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="880" y1="178" x2="880" y2="104" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="1125.5" y="178" width="9" height="44" fill="#2F5D7C"/>
+<text x="1146" y="205" text-anchor="start" font-family="Arial" font-size="15" fill="#111">f_Retract</text>
+<line x1="1130" y1="306" x2="1130" y2="222" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="1110.166492735698" y1="190.47991651313504" x2="901.6365533792385" y2="90.38554562203451" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="1375.5" y="178" width="9" height="44" fill="#2F5D7C"/>
+<text x="1396" y="205" text-anchor="start" font-family="Arial" font-size="15" fill="#111">f_SpinDown</text>
+<line x1="1380" y1="306" x2="1380" y2="222" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="1358.6074793564287" y1="194.86579504554288" x2="903.3372952475324" y2="85.60095085940777" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="1625.5" y="178" width="9" height="44" fill="#2F5D7C"/>
+<text x="1646" y="205" text-anchor="start" font-family="Arial" font-size="15" fill="#111">f_Release</text>
+<line x1="1630" y1="306" x2="1630" y2="222" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="1608.2763060978325" y1="196.5242089756532" x2="903.698575166001" y2="83.79177202656015" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="395.5" y="58" width="9" height="44" fill="#2F5D7C"/>
+<text x="400" y="48" text-anchor="middle" font-family="Arial" font-size="15" fill="#111">t_reset</text>
+<line x1="856" y1="80" x2="406" y2="80" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="383.85726517160026" y1="94.9469766929627" x2="147.61025617643605" y2="313.6942072440407" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<circle cx="130" cy="330" r="24" fill="#E9F1F8" stroke="#2F5D7C" stroke-width="2.5"/>
+<circle cx="130" cy="330" r="6.5" fill="#2F5D7C"/>
+<text x="130" y="374" text-anchor="middle" font-family="Arial" font-size="17" fill="#111">Idle</text>
+<circle cx="380" cy="330" r="24" fill="#E9F1F8" stroke="#2F5D7C" stroke-width="2.5"/>
+<text x="380" y="374" text-anchor="middle" font-family="Arial" font-size="17" fill="#111">Clamp</text>
+<circle cx="630" cy="330" r="24" fill="#E9F1F8" stroke="#2F5D7C" stroke-width="2.5"/>
+<text x="630" y="374" text-anchor="middle" font-family="Arial" font-size="17" fill="#111">SpinUp</text>
+<circle cx="880" cy="330" r="24" fill="#E9F1F8" stroke="#2F5D7C" stroke-width="2.5"/>
+<text x="880" y="374" text-anchor="middle" font-family="Arial" font-size="17" fill="#111">Advance</text>
+<circle cx="1130" cy="330" r="24" fill="#E9F1F8" stroke="#2F5D7C" stroke-width="2.5"/>
+<text x="1130" y="374" text-anchor="middle" font-family="Arial" font-size="17" fill="#111">Retract</text>
+<circle cx="1380" cy="330" r="24" fill="#E9F1F8" stroke="#2F5D7C" stroke-width="2.5"/>
+<text x="1380" y="374" text-anchor="middle" font-family="Arial" font-size="17" fill="#111">SpinDown</text>
+<circle cx="1630" cy="330" r="24" fill="#E9F1F8" stroke="#2F5D7C" stroke-width="2.5"/>
+<text x="1630" y="374" text-anchor="middle" font-family="Arial" font-size="17" fill="#111">Release</text>
+<rect x="250.5" y="308" width="9" height="44" fill="#2F5D7C"/>
+<text x="255" y="296" text-anchor="middle" font-family="Arial" font-size="15" fill="#111">t1  Start edge</text>
+<line x1="154" y1="330" x2="249" y2="330" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="261" y1="330" x2="356" y2="330" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="500.5" y="308" width="9" height="44" fill="#2F5D7C"/>
+<text x="505" y="296" text-anchor="middle" font-family="Arial" font-size="15" fill="#111">t2  ClampClosed</text>
+<line x1="404" y1="330" x2="499" y2="330" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="511" y1="330" x2="606" y2="330" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="750.5" y="308" width="9" height="44" fill="#2F5D7C"/>
+<text x="755" y="296" text-anchor="middle" font-family="Arial" font-size="15" fill="#111">t3  SpindleRunning</text>
+<line x1="654" y1="330" x2="749" y2="330" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="761" y1="330" x2="856" y2="330" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="1000.5" y="308" width="9" height="44" fill="#2F5D7C"/>
+<text x="1005" y="296" text-anchor="middle" font-family="Arial" font-size="15" fill="#111">t4  FeedForward</text>
+<line x1="904" y1="330" x2="999" y2="330" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="1011" y1="330" x2="1106" y2="330" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="1250.5" y="308" width="9" height="44" fill="#2F5D7C"/>
+<text x="1255" y="296" text-anchor="middle" font-family="Arial" font-size="15" fill="#111">t5  FeedHome</text>
+<line x1="1154" y1="330" x2="1249" y2="330" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="1261" y1="330" x2="1356" y2="330" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="1500.5" y="308" width="9" height="44" fill="#2F5D7C"/>
+<text x="1505" y="296" text-anchor="middle" font-family="Arial" font-size="15" fill="#111">t6  SpindleStopped</text>
+<line x1="1404" y1="330" x2="1499" y2="330" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<line x1="1511" y1="330" x2="1606" y2="330" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="875.5" y="458" width="9" height="44" fill="#2F5D7C"/>
+<text x="880" y="518" text-anchor="middle" font-family="Arial" font-size="15" fill="#111">t7  ClampOpen, cycle counted</text>
+<polyline points="1654,330 1700,330 1700,480 886,480" fill="none" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<polyline points="874,480 60,480 60,330 106,330" fill="none" stroke="#2F5D7C" stroke-width="2.2" marker-end="url(#arrow)"/>
+<text x="30" y="542" text-anchor="start" font-family="Arial" font-size="14" fill="#333" font-style="italic">Each f_X stands for three transitions with the same input and output places that differ only in their test place: G_open, P_low, or none (movement deadline or operator Stop).</text>
+</svg>
